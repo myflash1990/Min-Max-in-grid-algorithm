@@ -47,11 +47,8 @@ public class InsertionSorting {
 
             j = i - 1;
 
-            while(j>=0&&key<list[j]){
-
-
+            while(j>=0 && key < list[j]){
                 list[j+1]=list[j];
-                list[j] = list[j + 1];
                 j--;
             }
 
