@@ -24,19 +24,8 @@ public class InsertionSorting {
                     minrow = row;
 
                 }
-                int k = 0;
-                int max = m[0][minrow];
-
-                while(k<minrow){
-
-                    if (minrow>key){
-
-                        max = key;
-                        k++;
-                    }
-                }
-
-                System.out.println(max);
+  
+            
             }
         }
 //54 is the expected result
